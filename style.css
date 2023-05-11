@@ -1,0 +1,24 @@
+.product-container {
+    background-color: wheat;
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 10px;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 0px 4px 3px black;
+}
+
+.product-container .name {
+    color: white
+}
+
+.product-container .price {
+    color: yellow
+}
+
+.discount {
+    color: red
+}
